@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="facebook-domain-verification" content="r6smddg0g73siyzea9bwo2hnr88q8q" />
-  <title>Draatech - contact us</title>
+  <title>Draatech - home</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 <body>
@@ -39,58 +38,40 @@
 </nav>
 
 <div class="container">
-  <div id="services">
+  <div id="intro">
     <div id="header">
-      OUR AREA OF INTERVENTION
+      LEGAL NOTICE
     </div>
-    <div id="subheader">
-      How can we help you
+    <div id="body">
+      <p>
+        The website www.draatech.com is the property of COMMON INTERESTS. The IT service
+      provider ensuring the direct and permanent storage of the website is Github Inc 88 Colin P Kelly
+      Jr Street San Francisco, CA 94107 United States
+      </p>
+      <p> 
+      COMMON INTERESTS do not employ a data officer for the personal data that the website
+      collects from you.
+      If you have any questions regarding the processing of your personal data, please contact us.
+      <br /><br />
+      COMMON INTERESTS do not use cookies or personal data provided by customers for any
+      purpose other than to process orders and ensure their delivery.
+      </p> 
+      <p>
+      If you have any questions, requests for information, or rights to change or delete information
+      about you, you can contact us at contact@draatech.com
+       
+      Any legal dispute must be disputed before the court of Zagora 45900 Kingdom of Morocco.
+      Draatech is a brand of the company COMMON INTERESTS
+      </p>
     </div>
-    <div id="text">
-      We are a bunch of geeks committed to succeed and help other companies overcome all the "new normal" challenges be it technological, logistical or administrative, all in a timely manner and within your budget.
-    </div>
-    <div id="contact">
-      <a href="/contact" class="button is-info is-large">Contact us</a> 
-    </div>
-
-    <div id="boxes" class="columns">
-      <div id="data" class="box column">
-        <div id="header">
-          DATA ANALYTICS
-        </div>
-        <div id="subheader">
-          Reliable Data Market Insight
-        </div>
-        <div id="text">
-          We scrap all the possible data about your target customer segment, clean it, structure it to deliver it to you in a more understandable way allowing you to take the best decisions that will lead you to achieve your business goals based on reliable market insights.
-        </div>
-      </div>
-      <div id="data" class="box column">
-        <div id="header">
-          MARKETING STRATEGY
-        </div>
-        <div id="subheader">
-          A Strong Efficient Marketing Strategy
-        </div>
-        <div id="text">
-          We build your marketing strategy from scratch while explaining all the steps.
-          
-          We are skilled in SEO, URL structuring, and Content optimization.
-          We also master the Ads topic, you can rely on us for efficient campaigns on Facebook, Instagram, Tiktok or Google.
-        </div>
-      </div>
-      <div id="data" class="box column">
-        <div id="header">
-          SUPPLY CHAIN
-        </div>
-        <div id="subheader">
-          Sourcing, Shipping, Importing
-        </div>
-        <div id="text">
-          We are aware of all the struggles you face when starting your business, because we have been there ourselves. It took us time but we finally have been successful in managing all the supply chain and the administrative proceedures. Assigning this to "do's" to us will save time and keep you focused on your core business.
-        </div>
-      </div>
-    </div>
+    <table class="table">
+      <tr><td>Company legal name:</td><td>COMMON INTERESTS</td></tr>
+      <tr><td>Legal form:</td><td>SARL AU</td></tr>
+      <tr><td>Headquarter:</td><td> No 1, HAY EL MASSIRA GROUPE ESSALAM, 45900 ZAGORA, Morocco</td></tr>
+      <tr><td>Mailing address:</td><td>PO BOX 100, 45900 ZAGORA, MAROC</td></tr>
+      <tr><td>Trading license:</td><td>3217</td></tr>
+      <tr><td>VAT Number:</td><td>MA 45866650</td></tr>
+    </table>
   </div>
 </div>
 
@@ -114,10 +95,10 @@
     </div>
     <div id="footer-right" class="column">
       <div id="header">Legal</div>
-      <div><a href="#">Privacy Policy</a></div>
-      <div><a href="#">Terms & conditions</a></div>
-      <div><a href="#">Refund Policy</a></div>
-      <div><a href="#">Legal Notice</a></div>
+      <div><a href="/privacy">Privacy Policy</a></div>
+      <div><a href="/terms">Terms & conditions</a></div>
+      <div><a href="/refund">Refund Policy</a></div>
+      <div><a href="/legal">Legal Notice</a></div>
     </div>
   </div>
 </div>
@@ -176,10 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style>
-.container {
-  margin-bottom: 150px;
-}
-
 .navbar {
   margin-top: 20px;
 }
@@ -192,45 +169,27 @@ document.addEventListener('DOMContentLoaded', () => {
   margin-left: 50px;
 }
 
-#services {
-  margin-top: 50px;
+.container {
+  margin-top: 80px;
 }
 
-#services #header {
-  font-size: 1.4em;
+#intro #header {
+  font-size: 1.6em;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-#services #subheader {
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#services #text {
-  margin-top: 40px;
+#intro #body {
   line-height: 1.6em;
 }
 
-#services #contact {
-  margin-top: 40px;
-  text-align: center;
+#intro #body p {
+  margin-bottom: 20px;
 }
 
-#boxes .column {
-  height: 380px;
-  margin-right: 10px;
-}
-
-#boxes {
-  margin-top: 100px;
-  margin-bottom: 250px;
-}
-
-@media (min-width: 10em) {
-  #footer {
-    height: 400px;
-  }
+#intro table {
+  margin-top: 50px;
+  margin-bottom: 400px;
 }
 
 #footer {
@@ -270,12 +229,8 @@ document.addEventListener('DOMContentLoaded', () => {
 }        
 
 @media (max-width: 50em) {
-  #boxes {
+  #intro table {
     margin-bottom: 500px;
-  }
-
-  #boxes .column {
-    height: 450px;
   }
 
   #footer {

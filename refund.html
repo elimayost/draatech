@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="facebook-domain-verification" content="r6smddg0g73siyzea9bwo2hnr88q8q" />
-  <title>Draatech - contact us</title>
+  <title>Draatech - home</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 <body>
@@ -39,57 +39,35 @@
 </nav>
 
 <div class="container">
-  <div id="services">
+  <div id="intro">
     <div id="header">
-      OUR AREA OF INTERVENTION
+      Refund policy
     </div>
-    <div id="subheader">
-      How can we help you
+    <div id="body">
+      <p>
+      We offer a 30 days money back guarantee. If you aren’t satisfied with your
+      purchase, don’t worry. We’ll send you a refund with no questions asked.
+      If you want your money back just email us your order details within 30 days to
+      <a href="mailto:contact@draatedch.com" target="_blank">
+        contact@draatech.com
+      </a>
+      And we’ll refund you in less than 48 hours
+      </p>
     </div>
-    <div id="text">
-      We are a bunch of geeks committed to succeed and help other companies overcome all the "new normal" challenges be it technological, logistical or administrative, all in a timely manner and within your budget.
+    <div id="header">
+      Contacting us
     </div>
-    <div id="contact">
-      <a href="/contact" class="button is-info is-large">Contact us</a> 
-    </div>
-
-    <div id="boxes" class="columns">
-      <div id="data" class="box column">
-        <div id="header">
-          DATA ANALYTICS
-        </div>
-        <div id="subheader">
-          Reliable Data Market Insight
-        </div>
-        <div id="text">
-          We scrap all the possible data about your target customer segment, clean it, structure it to deliver it to you in a more understandable way allowing you to take the best decisions that will lead you to achieve your business goals based on reliable market insights.
-        </div>
-      </div>
-      <div id="data" class="box column">
-        <div id="header">
-          MARKETING STRATEGY
-        </div>
-        <div id="subheader">
-          A Strong Efficient Marketing Strategy
-        </div>
-        <div id="text">
-          We build your marketing strategy from scratch while explaining all the steps.
-          
-          We are skilled in SEO, URL structuring, and Content optimization.
-          We also master the Ads topic, you can rely on us for efficient campaigns on Facebook, Instagram, Tiktok or Google.
-        </div>
-      </div>
-      <div id="data" class="box column">
-        <div id="header">
-          SUPPLY CHAIN
-        </div>
-        <div id="subheader">
-          Sourcing, Shipping, Importing
-        </div>
-        <div id="text">
-          We are aware of all the struggles you face when starting your business, because we have been there ourselves. It took us time but we finally have been successful in managing all the supply chain and the administrative proceedures. Assigning this to "do's" to us will save time and keep you focused on your core business.
-        </div>
-      </div>
+    <div id="body">
+      <p>
+      If you would like to contact us concerning any matter relating to this Refund
+      Policy, you may send an email to contact@draatech.com or write a letter to
+      </p>
+      <p>
+      PO BOX 100, 45900 ZAGORA - KINGDOM OF MOROCCO
+      </p>
+      <p>
+      This document was last updated on December 18th, 2021
+      </p>
     </div>
   </div>
 </div>
@@ -114,10 +92,10 @@
     </div>
     <div id="footer-right" class="column">
       <div id="header">Legal</div>
-      <div><a href="#">Privacy Policy</a></div>
-      <div><a href="#">Terms & conditions</a></div>
-      <div><a href="#">Refund Policy</a></div>
-      <div><a href="#">Legal Notice</a></div>
+      <div><a href="/privacy">Privacy Policy</a></div>
+      <div><a href="/terms">Terms & conditions</a></div>
+      <div><a href="/refund">Refund Policy</a></div>
+      <div><a href="/legal">Legal Notice</a></div>
     </div>
   </div>
 </div>
@@ -176,10 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style>
-.container {
-  margin-bottom: 150px;
-}
-
 .navbar {
   margin-top: 20px;
 }
@@ -192,45 +166,22 @@ document.addEventListener('DOMContentLoaded', () => {
   margin-left: 50px;
 }
 
-#services {
-  margin-top: 50px;
+.container {
+  margin-top: 80px;
 }
 
-#services #header {
-  font-size: 1.4em;
+#intro #header {
+  font-size: 1.6em;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-#services #subheader {
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#services #text {
-  margin-top: 40px;
+#intro #body {
   line-height: 1.6em;
 }
 
-#services #contact {
-  margin-top: 40px;
-  text-align: center;
-}
-
-#boxes .column {
-  height: 380px;
-  margin-right: 10px;
-}
-
-#boxes {
-  margin-top: 100px;
-  margin-bottom: 250px;
-}
-
-@media (min-width: 10em) {
-  #footer {
-    height: 400px;
-  }
+#intro #body p {
+  margin-bottom: 20px;
 }
 
 #footer {
@@ -270,12 +221,8 @@ document.addEventListener('DOMContentLoaded', () => {
 }        
 
 @media (max-width: 50em) {
-  #boxes {
+  #intro {
     margin-bottom: 500px;
-  }
-
-  #boxes .column {
-    height: 450px;
   }
 
   #footer {

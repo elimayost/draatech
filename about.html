@@ -55,7 +55,7 @@
     </div>
   </div>
 
-  <hr />
+  <!--hr />
 
   <div id="legal">
     <div id="header">
@@ -85,13 +85,36 @@
         </tr>
       </table>
     </div>
-  </div>
+  </div-->
 </div>
 
 <div id="footer">
-  &copy;2021 by Draatech  
+  <div class="columns">
+    <div id="footer-left" class="column">
+      <div id="header">Draatech</div>
+      <div id="address">
+        PO BOX 100
+        <br />45900 Zagora
+        <br />Kingdom of Morocco
+      </div>
+      <div id="email">
+        <a href="mailto:contact@draatech.com" target="_blank">
+          contact@draatech.com
+        </a>
+      </div>
+    </div>
+    <div id="footer-middle" class="column">
+      &copy;2021 by Draatech  
+    </div>
+    <div id="footer-right" class="column">
+      <div id="header">Legal</div>
+      <div><a href="#">Privacy Policy</a></div>
+      <div><a href="#">Terms & conditions</a></div>
+      <div><a href="#">Refund Policy</a></div>
+      <div><a href="#">Legal Notice</a></div>
+    </div>
+  </div>
 </div>
-
 </body>
 </html>
 
@@ -164,7 +187,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 #about {
   margin-top: 100px;
-  margin-bottom: 80px;
 }
 
 #about #header {
@@ -207,11 +229,46 @@ document.addEventListener('DOMContentLoaded', () => {
 #footer {
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 200px;
   width: 100%;
   text-align: center;
   background-color: #eee;
   border-top: 1px solid #999;
   padding-top: 15px;
+}
+
+#footer #header {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#footer #email {
+  margin-top: 10px;
+}
+ 
+#footer #email a {
+  color: #4a4a4a;
+}
+
+#footer #email a:hover {
+  color: #111111;
+}        
+
+#footer-right a {
+  color: #4a4a4a;
+}
+
+#footer-right a:hover {
+  color: #111111;
+}        
+
+@media (max-width: 50em) {
+  #about {
+    margin-bottom: 500px;
+  }
+
+  #footer {
+    height: 400px;
+  }
 }
 </style>
