@@ -88,7 +88,11 @@
       </div>
     </div>
     <div id="footer-middle" class="column">
-      &copy;2021 by Draatech  
+      <div id="header">Quick links</div>
+      <div><a href="/">Home</a></div>
+      <div><a href="/about">About us</a></div>
+      <div><a href="/services">Our services</a></div>
+      <div><a href="/contact">Contact us</a></div>
     </div>
     <div id="footer-right" class="column">
       <div id="header">Legal</div>
@@ -97,6 +101,9 @@
       <div><a href="/refund">Refund Policy</a></div>
       <div><a href="/legal">Legal Notice</a></div>
     </div>
+  </div>
+  <div id="copyright">
+    Copyright ©2021 All rights reserved | Draatech is a brand of Common Interests SARL. 
   </div>
 </div>
 
@@ -187,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
 #footer {
   position: fixed;
   bottom: 0;
-  height: 200px;
+  height: 220px;
   width: 100%;
   text-align: center;
   background-color: #eee;
@@ -212,6 +219,14 @@ document.addEventListener('DOMContentLoaded', () => {
   color: #111111;
 }        
 
+#footer-middle a {
+  color: #4a4a4a;
+}
+
+#footer-middle a:hover {
+  color: #111111;
+}        
+
 #footer-right a {
   color: #4a4a4a;
 }
@@ -222,11 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 @media (max-width: 50em) {
   #intro {
-    margin-bottom: 500px;
+    margin-bottom: 700px;
   }
 
   #footer {
-    height: 400px;
+    height: 550px;
   }
 }
 </style>
